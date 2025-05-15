@@ -1,8 +1,7 @@
 import json
 from datetime import datetime
 
-from src.utils import (analyze_data, fetch_data_from_api, load_operations_data,
-                       parse_datetime)
+from src.utils import analyze_data, fetch_data_from_api, load_operations_data, parse_datetime
 
 
 def home_page_function(datetime_str: str) -> str:

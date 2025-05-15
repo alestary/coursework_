@@ -4,8 +4,7 @@ from unittest.mock import patch
 import pandas as pd
 import pytest
 
-from src.views import (analyze_data, fetch_data_from_api, load_operations_data,
-                       parse_datetime)
+from src.views import analyze_data, fetch_data_from_api, load_operations_data, parse_datetime
 
 
 def test_parse_datetime_valid():
